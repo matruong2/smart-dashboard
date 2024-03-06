@@ -56,17 +56,20 @@ body {
   margin-bottom: 0px;
 }
 
-#earthquake-count {
+#diploma-count {
   margin:0;
   text-align: center;
   color: orange;
   font-size: 50px;
 }
 
-#earthquake-chart {
+#diploma-chart {
   top: 20px;
 }
 
+#diploma-axis {
+  text-align: center;
+}
 
 #footer {
   position: absolute;
@@ -122,7 +125,7 @@ body {
 
 /* bar chart */
 text {
-  fill: gray
+  fill: rgb(203, 196, 196);
 }
 
 .tick line {
